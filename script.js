@@ -5,7 +5,7 @@ const updateCountdown = () => {
   const distance = endDate - now;
 
   if (distance <= 0) {
-    document.getElementById("countdown").innerHTML = "<h2>🎉 Time's up! 🎉</h2>";
+    document.getElementById("countdown").innerHTML = "<h2>💣 Oh boy! 💣</h2>";
     return;
   }
 
